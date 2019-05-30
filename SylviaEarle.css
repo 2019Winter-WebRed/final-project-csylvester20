@@ -1,0 +1,129 @@
+/*
+* Chloe Sylvester
+* 30 May 2019
+* Final Project: Sylvia Earle
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+} /* you have to have this in your css in order to be able to create your own margins and paddings */
+
+/* Body attributes here */
+
+body {
+    width: 90%; 
+    background-color: azure;
+    margin: 25px auto;
+    border: 2px solid rgb(72,201,176);
+} /* the formatting for the border colors and the background color of the webpage */
+
+h1, h2, h3 {
+    padding: 10px;
+    font-family: fantasy; 
+} /* provides the padding around the titles and the type of font used */
+
+header {
+    border-bottom: 2px solid #ef9c00;
+    text-align: center; 
+    font-family: fantasy; 
+} /* provides the alignment of the title and the font of it */
+
+#SESeasnake {
+    border: 3px solid rgb(15,82,186);
+    margin: 10px; padding: 1px;
+} /* provides a border, a margin and some padding around the first image within the header*/
+
+#SEHeader {
+    border: 3px solid rgb(15,82,186);
+    margin: 10px; padding: 1px;
+} /* this is the middle image in my header so that I could break up the two pictures of Sylvia with a dark border and a little bit of padding*/
+
+#SEScuba {
+    border: 3px solid rgb(15,82,186); 
+    margin: 10px; padding: 1px;
+} /* a solid border and some padding around the image of her and a boddy scuba diving*/
+
+#sidebarA {
+    width: 23% ;
+    height: 600px;
+    float: left;
+    border-right: 2px solid #ef9c00;
+    text-align: center;
+    padding-top: 10px;
+} /* provides the cosmetic information for the left column with aligning the text in the center to provide some padding on both sides of the text*/
+
+#facts {
+    margin: 5px; 
+} /* puts the unordered list with a margin on all sides to push away from the borders*/
+
+#item {
+    padding: 20px;
+} /* pushes each item within the list 20px away from each other so that it is easier to read*/
+
+main {
+    width: 52%;
+    height: 600px;
+    float: left;
+    text-align: center;
+    padding-top: 10px; 
+} /* provides the information to align the text center and have the image float to the left so that the text can go to the right of it*/
+
+#under {
+    text-decoration: underline; 
+} /* provides the underline under my 4 headings, not the one in the actual header but in the columns and the footer */
+
+p {
+    text-align: justify; 
+    padding-left: 15px; margin-top: 10px;
+} /* justifys the text in the biography portion of the web page so that the words line up on both sides of the box*/
+
+ul {
+    list-style-type: none; 
+} /* allows the two aside columns to not have bullet points */
+
+#SEPortrait {
+    width: 200px;
+    float: left; 
+    margin: 15px; padding: 1px;
+    border: 3px solid rgb(15,82,186); 
+} /* has the dimensions of her portrait so it fits in the section and allows the paragraph's text to go around the picture */
+
+#sidebarB {
+    width: 23%;
+    height: 600px;
+    float: right;
+    border-left: 2px solid #ef9c00;
+    text-align: center;
+    padding-top: 10px;
+} /* provides the information for the right aside */
+
+#accomplishments {
+    margin: 5px; 
+} /* provides the margin of the accomplishments so that they aren't right against the borders */
+
+footer {
+    clear: both;
+    border-top: 2px solid #ef9c00;
+    padding: 20px; 
+} /* gives the footer a border on the top to match the headers bottom border to make the web page look more uniform */
+
+h5 {
+    text-align: right; 
+} /* aligns the educational purposes statement to the bottom right of the footer */
+
+a:hover, a:focus {
+    font-size: 20px;
+    color: cornflowerblue;
+} /* allows the links when hovered over to change color and size to make the web page more dynamic */
+
+a:visited {
+    color: aquamarine;
+} /* when you click on a link it will change colors so that you know which websites you have been to */
+
+#footerUL {
+    list-style-type: circle; 
+    margin-left: 10px; 
+} /* gave the unordered list an id for the footer so that I could add in some bullet points to make it look like an actual list */
